@@ -60,14 +60,14 @@ function xepLoaiHocLuc(name,point15,point45,giuKy,cuoiKy){
         if( pointinteger >= 9 && pointinteger <= 10){
             alert(`${key} : Học sinh Xuất Sắc`);
         }else if(pointinteger < 9 && pointinteger>=8 ){
-            alert(`${key} : Học sinh GSắc`);
+            alert(`${key} : Học sinh Giỏi`);
 
         }else if(pointinteger < 8 && pointinteger>=7 ){
-            alert(`${key} : Học sinh Sắc`);
+            alert(`${key} : Học sinh Khá`);
         }else if(pointinteger < 7 && pointinteger>=5 ){
-            alert(`${key} : Học sinh Trung BSắc`);
+            alert(`${key} : Học sinh Trung Bình`);
         }else {
-            alert(`${key} : Học sinh Sắc`);
+            alert(`${key} : Học sinh Yếu`);
         }
     }
  };      
